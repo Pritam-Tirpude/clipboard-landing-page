@@ -1,4 +1,4 @@
-# Frontend Mentor - Four card feature section
+# Frontend Mentor - Clipboard Landing Page 
 
 ![Design preview for the Clipboard Landing Page coding challenge](./design/desktop-preview.jpg)
 
