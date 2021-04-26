@@ -1,6 +1,6 @@
 # Frontend Mentor - Four card feature section
 
-![Design preview for the Four card feature section coding challenge](./design/desktop-preview.jpg)
+![Design preview for the Clipboard Landing Page coding challenge](./design/desktop-preview.jpg)
 
 ## Table of contents
 
@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Four Card Section Solution](https://www.frontendmentor.io/challenges/clipboard-landing-page-5cc9bccd6c4c91111378ecb9)
-- Live Site URL: [Live Site](https://four-card-preview.netlify.app/)
+- Solution URL: [Clipboard Landing Page Solution](https://www.frontendmentor.io/challenges/clipboard-landing-page-5cc9bccd6c4c91111378ecb9/hub/html-css-sass-flexbox-YylvHN5Pm)
+- Live Site URL: [Live Site](https://clipboard-land-page.netlify.app/)
 
 ## My process
 
