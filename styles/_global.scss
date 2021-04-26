@@ -1,0 +1,36 @@
+$header1: 4rem;
+$header2: 3.5rem;
+$header3: 2.5rem;
+$header4: 2rem;
+$header5: 1.5rem;
+$header6: 1rem;
+
+$primary_strong_cyan: hsl(171, 66%, 44%);
+$primary_light_blue: hsl(233, 100%, 69%);
+$primary_white: hsl(0, 0%, 100%);
+
+$neutral_dark_grayish_blue: hsl(210, 10%, 33%);
+$neutral_grayish_blue: hsl(201, 11%, 66%);
+
+@mixin flex($justify, $align, $direction) {
+  display: flex;
+  justify-content: $justify;
+  align-items: $align;
+  flex-direction: $direction;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  min-height: 100vh;
+  font-family: "Bai Jamjuree", sans-serif;
+  background: url("../images/bg-header-desktop.png") no-repeat;
+}

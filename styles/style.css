@@ -1,0 +1,659 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  min-height: 100vh;
+  font-family: "Bai Jamjuree", sans-serif;
+  background: url("../images/bg-header-desktop.png") no-repeat;
+}
+
+.intro-section {
+  margin-top: 10rem;
+  min-height: 70vh;
+}
+
+.intro-section .logo {
+  text-align: center;
+}
+
+.intro-section h1 {
+  margin-top: 4rem;
+  text-align: center;
+  font-size: 4rem;
+  color: #4c545d;
+}
+
+.intro-section p {
+  margin-top: 2rem;
+  text-align: center;
+  font-size: 2rem;
+  color: #9fabb2;
+}
+
+.intro-section .download-btn {
+  margin-top: 4rem;
+  text-align: center;
+}
+
+.intro-section .download-btn .ios {
+  padding: 1rem 2rem;
+  width: 20%;
+  height: 5rem;
+  border: none;
+  border-radius: 2rem;
+  cursor: pointer;
+  font-family: "Bai Jamjuree", sans-serif;
+  font-size: medium;
+  color: white;
+  background: #26baa4;
+  -webkit-box-shadow: 0px 10px 10px rgba(38, 186, 164, 0.5);
+          box-shadow: 0px 10px 10px rgba(38, 186, 164, 0.5);
+}
+
+.intro-section .download-btn .mac {
+  margin-left: 2rem;
+  padding: 1rem 3rem;
+  width: 20%;
+  height: 5rem;
+  border: none;
+  font-size: medium;
+  border-radius: 2rem;
+  cursor: pointer;
+  font-family: "Bai Jamjuree", sans-serif;
+  color: white;
+  background: #6173ff;
+  -webkit-box-shadow: 0px 10px 10px rgba(97, 115, 255, 0.5);
+          box-shadow: 0px 10px 10px rgba(97, 115, 255, 0.5);
+}
+
+.snippet-text {
+  text-align: center;
+  min-height: 30vh;
+}
+
+.snippet-text h2 {
+  color: #4c545d;
+  font-size: 3.5rem;
+}
+
+.snippet-text p {
+  margin-top: 3rem;
+  font-size: 2rem;
+  color: #9fabb2;
+}
+
+.computer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  min-height: 100vh;
+}
+
+.computer .features {
+  margin-left: 5rem;
+}
+
+.computer .features .quick-search h3 {
+  font-size: 2rem;
+  color: #4c545d;
+}
+
+.computer .features .quick-search p {
+  font-size: 1.5rem;
+  color: #9fabb2;
+}
+
+.computer .features .icloud-sync {
+  margin-top: 5rem;
+}
+
+.computer .features .icloud-sync h3 {
+  font-size: 2rem;
+  color: #4c545d;
+}
+
+.computer .features .icloud-sync p {
+  font-size: 1.5rem;
+  color: #9fabb2;
+}
+
+.computer .features .complete-history {
+  margin-top: 5rem;
+}
+
+.computer .features .complete-history h3 {
+  font-size: 2rem;
+  color: #4c545d;
+}
+
+.computer .features .complete-history p {
+  font-size: 1.5rem;
+  color: #9fabb2;
+}
+
+.clipboard-text {
+  text-align: center;
+  min-height: 30vh;
+  margin-top: 5rem;
+}
+
+.clipboard-text h2 {
+  color: #4c545d;
+  font-size: 3.5rem;
+}
+
+.clipboard-text p {
+  margin-top: 3rem;
+  font-size: 2rem;
+  color: #9fabb2;
+}
+
+.mobile-ipad {
+  min-height: 90vh;
+  text-align: center;
+}
+
+.supercharge-text {
+  text-align: center;
+  min-height: 30vh;
+}
+
+.supercharge-text h2 {
+  color: #4c545d;
+  font-size: 3.5rem;
+}
+
+.supercharge-text p {
+  margin-top: 2rem;
+  font-size: 2rem;
+  color: #9fabb2;
+}
+
+.tools {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  min-height: 30vh;
+}
+
+.tools .blacklists .blacklist-image {
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.tools .blacklists .blacklist-text {
+  text-align: center;
+}
+
+.tools .blacklists .blacklist-text h3 {
+  font-size: 2rem;
+  color: #4c545d;
+}
+
+.tools .blacklists .blacklist-text p {
+  margin-top: 2rem;
+  font-size: 1.5rem;
+  color: #9fabb2;
+}
+
+.tools .plain-text .plain-text-image {
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.tools .plain-text .plain-text-content {
+  text-align: center;
+}
+
+.tools .plain-text .plain-text-content h3 {
+  font-size: 2rem;
+  color: #4c545d;
+}
+
+.tools .plain-text .plain-text-content p {
+  margin-top: 2rem;
+  font-size: 1.5rem;
+  color: #9fabb2;
+}
+
+.tools .sneak-preview .sneak-image {
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.tools .sneak-preview .sneak-text {
+  text-align: center;
+}
+
+.tools .sneak-preview .sneak-text h3 {
+  font-size: 2rem;
+  color: #4c545d;
+}
+
+.tools .sneak-preview .sneak-text p {
+  margin-top: 2rem;
+  font-size: 1.5rem;
+  color: #9fabb2;
+}
+
+.companies {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  min-height: 30vh;
+}
+
+.end-section {
+  min-height: 40vh;
+}
+
+.end-section h1 {
+  margin-top: 4rem;
+  text-align: center;
+  font-size: 4rem;
+  color: #4c545d;
+}
+
+.end-section p {
+  margin-top: 2rem;
+  text-align: center;
+  font-size: 2rem;
+  color: #9fabb2;
+}
+
+.end-section .download-btn {
+  margin-top: 4rem;
+  text-align: center;
+}
+
+.end-section .download-btn .ios {
+  padding: 1rem 2rem;
+  width: 20%;
+  height: 5rem;
+  border: none;
+  border-radius: 2rem;
+  cursor: pointer;
+  font-family: "Bai Jamjuree", sans-serif;
+  font-size: medium;
+  color: white;
+  background: #26baa4;
+  -webkit-box-shadow: 0px 10px 10px rgba(38, 186, 164, 0.5);
+          box-shadow: 0px 10px 10px rgba(38, 186, 164, 0.5);
+}
+
+.end-section .download-btn .mac {
+  margin-left: 2rem;
+  padding: 1rem 3rem;
+  width: 20%;
+  height: 5rem;
+  border: none;
+  font-size: medium;
+  border-radius: 2rem;
+  cursor: pointer;
+  font-family: "Bai Jamjuree", sans-serif;
+  color: white;
+  background: #6173ff;
+  -webkit-box-shadow: 0px 10px 10px rgba(97, 115, 255, 0.5);
+          box-shadow: 0px 10px 10px rgba(97, 115, 255, 0.5);
+}
+
+.footer-section {
+  margin-top: 5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  background: #dddddd;
+  min-height: 30vh;
+}
+
+.footer-section .faq-contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.footer-section .faq-contact a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: lighter;
+  color: #4c545d;
+  line-height: 3rem;
+}
+
+.footer-section .faq-contact a:hover {
+  color: #26baa4;
+}
+
+.footer-section .privacy-kit {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.footer-section .privacy-kit a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: lighter;
+  color: #4c545d;
+  line-height: 3rem;
+}
+
+.footer-section .privacy-kit a:hover {
+  color: #26baa4;
+}
+
+.footer-section .install {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.footer-section .install a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: lighter;
+  color: #4c545d;
+  line-height: 3rem;
+}
+
+.footer-section .install a:hover {
+  color: #26baa4;
+}
+
+.footer-section .social-network {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.footer-section .social-network button {
+  padding: 1rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.footer-section .social-network button:hover {
+  color: #26baa4;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.footer .attribution {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.footer .attribution a {
+  color: #6173ff;
+}
+
+@media screen and (max-width: 1200px) {
+  body {
+    background: url("../images/bg-header-mobile.png") no-repeat;
+    background-size: contain;
+  }
+  main {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .intro-section .download-btn {
+    min-height: 30vh;
+  }
+  .intro-section .download-btn .ios {
+    width: 80%;
+  }
+  .intro-section .download-btn .mac {
+    margin: 0rem;
+    margin-top: 2rem;
+    width: 80%;
+  }
+  .computer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    min-height: 100vh;
+    margin-top: 5rem;
+  }
+  .computer .computer-image img {
+    max-width: 100%;
+    height: auto;
+  }
+  .computer .features {
+    margin: 0rem;
+    margin-top: 5rem;
+  }
+  .computer .features .quick-search h3 {
+    text-align: center;
+  }
+  .computer .features .quick-search p {
+    text-align: center;
+    margin-top: 3rem;
+    font-size: 2rem;
+  }
+  .computer .features .icloud-sync h3 {
+    text-align: center;
+  }
+  .computer .features .icloud-sync p {
+    text-align: center;
+    margin-top: 3rem;
+    font-size: 2rem;
+  }
+  .computer .features .complete-history h3 {
+    text-align: center;
+  }
+  .computer .features .complete-history p {
+    text-align: center;
+    margin-top: 3rem;
+    font-size: 2rem;
+  }
+  .clipboard-text {
+    min-height: 10vh;
+  }
+  .mobile-ipad {
+    margin-top: 5rem;
+    min-height: 30vh;
+  }
+  .mobile-ipad img {
+    max-width: 100%;
+    height: auto;
+  }
+  .supercharge-text {
+    min-height: 20vh;
+  }
+  .tools {
+    margin-top: 5rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .tools .plain-text {
+    margin-top: 4rem;
+  }
+  .tools .sneak-preview {
+    margin-top: 4rem;
+  }
+  .companies {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-top: 5rem;
+  }
+  .companies .ibm {
+    margin-top: 4rem;
+  }
+  .companies .microsoft {
+    margin-top: 4rem;
+  }
+  .companies .hp {
+    margin-top: 4rem;
+  }
+  .companies .vector {
+    margin-top: 4rem;
+  }
+  .end-section {
+    margin-top: 5rem;
+  }
+  .end-section .download-btn {
+    min-height: 30vh;
+  }
+  .end-section .download-btn .ios {
+    width: 80%;
+  }
+  .end-section .download-btn .mac {
+    margin: 0rem;
+    margin-top: 2rem;
+    width: 80%;
+  }
+  .footer-section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+  }
+  .footer-section .end-logo {
+    margin-top: 5rem;
+  }
+  .footer-section .faq-contact {
+    margin-top: 5rem;
+  }
+  .footer-section .social-network {
+    margin-top: 5rem;
+  }
+}
+/*# sourceMappingURL=style.css.map */
